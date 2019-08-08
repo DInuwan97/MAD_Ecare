@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainPromptActivity"></activity>
+        <activity android:name=".PharmacyHome"></activity>
+        <activity android:name=".MainPromptActivity" />
         <activity android:name=".PatientHomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
