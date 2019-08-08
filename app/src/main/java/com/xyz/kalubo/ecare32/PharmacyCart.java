@@ -1,22 +1,15 @@
 package com.xyz.kalubo.ecare32;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.WindowManager;
 
-public class PharmacyHome extends AppCompatActivity {
+public class PharmacyCart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pharmacy_home);
+        setContentView(R.layout.activity_pharmacy_cart);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-    }
-
-    public void details(View view){
-        Intent intent = new Intent(this, PharmacyDetails.class);
-        startActivity(intent);
     }
 }

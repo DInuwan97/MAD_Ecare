@@ -58,6 +58,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
+                android:onClick="details"
                 android:text="@string/Pharmacy_button_paracetamol" />
 
             <Button
