@@ -7,6 +7,6 @@
     <string name="Price_type">Per Strip(12 Tabs)</string>
     <string name="Price_calculated">Rs. 200</string>
     <string name="Usage">Usage</string>
-    <string name="Ingrediants">Ingrediants</string>
+    <string name="Ingredient">Ingredients</string>
     <string name="Side_Effects">Side Effects</string>
 </resources>

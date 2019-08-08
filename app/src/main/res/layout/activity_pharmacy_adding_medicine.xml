@@ -100,16 +100,16 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/name"
+                    android:id="@+id/Description"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Name"
+                    android:text="Description"
                     android:textColor="@android:color/black" />
 
                 <EditText
-                    android:id="@+id/editText6"
+                    android:id="@+id/discription_field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -126,16 +126,16 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/name"
+                    android:id="@+id/Usage"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Name"
+                    android:text="Usage"
                     android:textColor="@android:color/black" />
 
                 <EditText
-                    android:id="@+id/editText5"
+                    android:id="@+id/usageField"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -152,16 +152,16 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/name"
+                    android:id="@+id/Ingredients"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Name"
+                    android:text="Ingredients"
                     android:textColor="@android:color/black" />
 
                 <EditText
-                    android:id="@+id/editText7"
+                    android:id="@+id/Ingredients_field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -178,16 +178,16 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/name"
+                    android:id="@+id/SideEffects"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Name"
+                    android:text="Side Effects"
                     android:textColor="@android:color/black" />
 
                 <EditText
-                    android:id="@+id/editText8"
+                    android:id="@+id/Side_Effects_field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -197,6 +197,36 @@
                     android:inputType="textMultiLine" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent_border_button"
+                    android:text="Clear" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Add" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>
