@@ -15,7 +15,8 @@
         android:layout_height="fill_parent"
         android:layout_above="@+id/footer"
         android:layout_below="@+id/header"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        tools:ignore="MissingConstraints">
         <LinearLayout
             android:id="@+id/myLayout"
             android:orientation="vertical"
