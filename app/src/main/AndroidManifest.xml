@@ -9,18 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:windowSoftInputMode="stateHidden|adjustResize"
-        >
-        android:theme="@style/AppTheme">
-        <activity android:name=".ChnnelDoctorActivity"></activity>
-
-        <activity android:name=".PharmacyAddingMedicineAdmin"></activity>
+        android:windowSoftInputMode="stateHidden|adjustResize">
+        <activity android:name=".PharmacyCartPayout"></activity>
+        <activity android:name=".ChnnelDoctorActivity" />
+        <activity android:name=".PharmacyAddingMedicineAdmin" />
         <activity android:name=".PharmacyAddingMedicine" />
         <activity android:name=".PharmacyCart" />
         <activity android:name=".PharmacyDetails" />
         <activity android:name=".PharmacyHome" />
-
-
         <activity
             android:name=".PatientPortal"
             android:label="@string/title_activity_patient_portal"

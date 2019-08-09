@@ -59,6 +59,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
+                android:onClick="addNewMedicine"
                 android:text="@string/Pharmacy_button_paracetamol" />
 
             <Button
@@ -70,7 +71,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Amoxicillin" />
 
             <Button
                 android:id="@+id/paracetamol2"
@@ -81,7 +82,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Oxycodone" />
 
             <Button
                 android:id="@+id/paracetamol4"
@@ -92,7 +93,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Amoxicillin" />
 
             <Button
                 android:id="@+id/paracetamol7"
