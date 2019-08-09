@@ -11,10 +11,12 @@
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="stateHidden|adjustResize"
         >
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChnnelDoctorActivity"></activity>
         <activity
             android:name=".PatientPortal"
             android:label="@string/title_activity_patient_portal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TemporyMainMenuActivity" />
         <activity
             android:name=".ListOfDoctorsActivity"

@@ -195,6 +195,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginRight="8dp"
                         android:background="@drawable/btn_secondary_style"
+                        android:onClick="channelDoctor"
                         android:text="View"
                         android:textColor="@color/colorLightWhite"
                         app:layout_constraintBottom_toBottomOf="parent"

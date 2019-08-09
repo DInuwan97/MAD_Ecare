@@ -22,7 +22,7 @@
             android:background="@color/colorPrimary"
             app:itemTextColor="@color/colorWhite"
             app:itemIconTint="@color/colorWhite"
-            app:menu="@menu/bottom_nav_menu"/>
+            app:menu="@menu/menu_doctor_portal"/>
 
         <include
             layout="@layout/app_bar_navigation_drawer"

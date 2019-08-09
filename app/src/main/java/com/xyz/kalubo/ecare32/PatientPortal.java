@@ -102,6 +102,9 @@ public class PatientPortal extends AppCompatActivity
         return true;
     }
 
+
+
+
     public void changeFragment(View view) {
         Fragment fragment;
 
