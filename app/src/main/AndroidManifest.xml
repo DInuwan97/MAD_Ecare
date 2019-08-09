@@ -13,6 +13,14 @@
         >
         android:theme="@style/AppTheme">
         <activity android:name=".ChnnelDoctorActivity"></activity>
+
+        <activity android:name=".PharmacyAddingMedicineAdmin"></activity>
+        <activity android:name=".PharmacyAddingMedicine" />
+        <activity android:name=".PharmacyCart" />
+        <activity android:name=".PharmacyDetails" />
+        <activity android:name=".PharmacyHome" />
+
+
         <activity
             android:name=".PatientPortal"
             android:label="@string/title_activity_patient_portal"
