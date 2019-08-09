@@ -18,8 +18,5 @@ public class MainPromptActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void showPharmacy(View view){
-        Intent intent = new Intent(this, PharmacyHome.class);
-        startActivity(intent);
-    }
+
 }
