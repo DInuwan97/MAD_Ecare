@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".PatientPortal"
+            android:label="@string/title_activity_patient_portal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".TemporyMainMenuActivity" />
+        <activity
+            android:name=".ListOfDoctorsActivity"
+            android:label="@string/title_activity_list_of_doctors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".DoctorHomeActivity"
             android:label="@string/title_activity_doctor_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BottomNavigationActivity"
             android:label="@string/title_activity_bottom_navigation" />

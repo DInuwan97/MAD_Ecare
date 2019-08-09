@@ -27,7 +27,7 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/btn_secondary_style"
-            android:onClick="showPatirntHomeView"
+            android:onClick="showTemporyMainMenu"
             android:text="SIGN IN"
             android:textColor="@color/colorWhite"
             android:textSize="18sp"
