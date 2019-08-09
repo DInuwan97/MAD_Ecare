@@ -13,8 +13,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void showPatirntHomeView(View view){
-        Intent intent = new Intent(this,NavigationDrawerActivity.class);
+    public void showTemporyMainMenu(View view){
+        Intent intent = new Intent(this,TemporyMainMenuActivity.class);
         startActivity(intent);
     }
 

@@ -9,6 +9,10 @@
     tools:showIn="@layout/app_bar_navigation_drawer">
 
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
 
 
     <ScrollView
@@ -184,7 +188,7 @@
                         app:layout_constraintVertical_bias="0.258" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/doctorList"
                         android:layout_width="82dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="8dp"
@@ -949,6 +953,7 @@
         </LinearLayout>
     </ScrollView>
 
+    </FrameLayout>
 
 
 
