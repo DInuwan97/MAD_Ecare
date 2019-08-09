@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChnnelDoctorActivity"></activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CreatePrecriptionActivity" />
+        <activity
+            android:name=".TesterPortalActivity"
+            android:label="@string/title_activity_tester_portal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChnnelDoctorActivity" />
         <activity
             android:name=".PatientPortal"
             android:label="@string/title_activity_patient_portal"

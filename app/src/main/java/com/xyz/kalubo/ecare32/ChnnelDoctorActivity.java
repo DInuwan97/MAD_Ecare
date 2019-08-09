@@ -14,7 +14,7 @@ import java.util.Calendar;
 
 public class ChnnelDoctorActivity extends AppCompatActivity {
 
-    Spinner spinner;
+    Spinner spinner,spinner2,spinner3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,31 +34,38 @@ public class ChnnelDoctorActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, list);
 
         spinner.setAdapter(adapter);
+
+
+
+        spinner2 = (Spinner) findViewById(R.id.spinner2);
+
+        ArrayList<String> list1 = new ArrayList<>();
+        list1.add("Select Date..");
+        list1.add("10/02/2019 - Thursday");
+        list1.add("13/02/2019 - Friday");
+        list1.add("14/02/2019 - Sunday");
+        list1.add("17/02/2019 - Tuesday");
+
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, list1);
+
+        spinner.setAdapter(adapter2);
+
+
+        spinner3 = (Spinner) findViewById(R.id.spinner3);
+
+        ArrayList<String> list3 = new ArrayList<>();
+        list3.add("Select Time..");
+        list3.add("5.00 PM - 7.30 PM");
+        list3.add("5.00 PM - 7.30 PM");
+        list3.add("14/02/2019 - Sunday");
+        list3.add("17/02/2019 - Tuesday");
+
+        ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, list3);
+
+        spinner.setAdapter(adapter3);
+
+
+
+
     }
 }
-
-        //creating alender instance
-
-        /*Calendar calendar = Calendar.getInstance();
-        int Day = calendar.get(Calendar.DAY_OF_MONTH);
-        int Month = calendar.get(Calendar.MONTH);
-        int Year = calendar.get(Calendar.YEAR);
-
-        TextView textView = findViewById(R.id.displayDate);
-        textView.setOnClickListener(new View.OnClickListener(){*/
-
-           /* public void onClick(View view) {
-                //Take DatePicker library instance..
-                DatePickerDialog dialog = DatePickerDialog.newInstance(new DatePickerDialog.onDateSetListner(){
-
-                    public void onDateSet(DatePickerDialog view,int year,int monthOfYear, int dayOfMonath){
-                        String srtDate = dayOfMonath + "/" +(monthOfYear + 1)+ "/" +year;
-                    }
-
-                });
-            }
-        });*/
-
-
-
-
