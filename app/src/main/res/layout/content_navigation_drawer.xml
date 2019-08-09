@@ -196,6 +196,7 @@
                             android:layout_marginEnd="8dp"
                             android:layout_marginRight="8dp"
                             android:background="@drawable/btn_secondary_style"
+                            android:clickable="true"
                             android:onClick="addPrescription"
                             android:text="View"
                             android:textColor="@color/colorLightWhite"

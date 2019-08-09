@@ -111,7 +111,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     }
 
     public void addPrescription(View view){
-        Intent intent = new Intent(this,CreatePrecriptionActivity.class);
+        Intent intent = new Intent(this,CreatePrescriptionActivity.class);
         startActivity(intent);
     }
 
