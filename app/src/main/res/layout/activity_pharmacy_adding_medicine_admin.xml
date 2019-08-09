@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PharmacyHome">
+    tools:context=".PharmacyAddingMedicineAdmin">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/Header"
+        android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="?attr/colorPrimary"
+        android:gravity="clip_horizontal|right"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/Footer"
+        android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -25,10 +26,10 @@
         android:theme="?attr/actionBarTheme" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Header"
+        android:layout_below="@id/header"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
@@ -41,8 +42,8 @@
         android:id="@+id/Scroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/Footer"
-        android:layout_below="@id/editText3">
+        android:layout_above="@id/footer"
+        android:layout_below="@id/search">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -146,8 +147,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol"
-                android:backgroundTint=""/>
+                android:text="@string/Pharmacy_button_paracetamol" />
 
             <Button
                 android:id="@+id/paracetamol5"
@@ -173,5 +173,22 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/add_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/footer"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/transparent_border_button"
+        android:backgroundTint="#5df5b1"
+        android:onClick="addNewMedicine"
+        android:text="Add New Medicine" />
+
 
 </RelativeLayout>
