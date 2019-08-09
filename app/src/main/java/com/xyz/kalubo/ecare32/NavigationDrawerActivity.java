@@ -115,4 +115,15 @@ public class NavigationDrawerActivity extends AppCompatActivity
         startActivity(intent);
     }
 
+
+    /*public void adminPortal(View view){
+        Intent intent = new Intent(this,AdminActivity.class);
+        startActivity(intent);
+    }*/
+
+    public void pharmacyPortal(View view){
+        Intent intent = new Intent(this,PharmacyHome.class);
+        startActivity(intent);
+    }
+
 }

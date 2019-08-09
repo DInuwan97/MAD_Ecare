@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="stateHidden|adjustResize">
-        <activity android:name=".CreatePrescriptionActivity"></activity>
+        <activity
+            android:name=".AdminPortalActivity"
+            android:label="@string/title_activity_admin_portal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CreatePrescriptionActivity" />
         <activity android:name=".PharmacyCartPayout" />
         <activity android:name=".ChnnelDoctorActivity" />
         <activity android:name=".PharmacyAddingMedicineAdmin" />

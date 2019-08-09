@@ -14,7 +14,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void showLoginActivity(View view){
-        Intent intent = new Intent(this,DoctorHomeActivity.class);
+        Intent intent = new Intent(this,LoginActivity.class);
         startActivity(intent);
     }
 }

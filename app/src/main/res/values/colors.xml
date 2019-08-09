@@ -9,4 +9,6 @@
     <color name="colorIcon">#7f8c8d</color>
     <color name="colorBlack">#000000</color>
     <color name="colorLightWhite">#EEFAF5F5</color>
+    <color name="colorDanger">#EEA21212</color>
+    <color name="colorWarning">#F17E05</color>
 </resources>

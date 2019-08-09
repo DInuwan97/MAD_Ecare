@@ -28,9 +28,13 @@ public class TemporyMainMenuActivity extends AppCompatActivity {
         Intent intent1 = new Intent(this,PharmacyHome.class);
         startActivity(intent1);
     }
-    public void PharmacyAdmin(View view){
-        Intent intent1 = new Intent(this,PharmacyAddingMedicineAdmin.class);
+
+    public void showAdminPortal(View view){
+        Intent intent1 = new Intent(this,AdminPortalActivity.class);
         startActivity(intent1);
     }
+
+
+
 
 }
