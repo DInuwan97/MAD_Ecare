@@ -33,8 +33,10 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
+        android:autofillHints=""
         android:drawableLeft="@android:drawable/ic_menu_search"
         android:ems="10"
+        android:hint="@string/Search"
         android:inputType="textPersonName" />
 
     <ScrollView
@@ -48,18 +50,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <Button
-                android:id="@+id/paracetamol"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/transparent_border_button"
-                android:onClick="details"
-                android:text="@string/Pharmacy_button_paracetamol" />
 
             <Button
                 android:id="@+id/paracetamol3"
@@ -83,7 +73,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
                 android:onClick="details"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Amoxicillin" />
 
             <Button
                 android:id="@+id/paracetamol4"
@@ -94,7 +84,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Cymbalta" />
 
             <Button
                 android:id="@+id/paracetamol7"
@@ -105,7 +95,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/transparent_border_button"
-                android:text="@string/Pharmacy_button_paracetamol" />
+                android:text="@string/Pharmacy_button_Oxycodone" />
 
             <Button
                 android:id="@+id/paracetamol8"
