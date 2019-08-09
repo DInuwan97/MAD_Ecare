@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 public class BottomNavigationActivity extends AppCompatActivity {
     private TextView mTextMessage;
+    //private TextView mTextMessage2;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
