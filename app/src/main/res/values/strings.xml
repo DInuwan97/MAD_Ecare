@@ -8,6 +8,18 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="Pharmacy_button_paracetamol">Paracetamol</string>
+    <string name="show_Pharmacy">Pharmacy</string>
+    <string name="Price">Rs. 100</string>
+    <string name="Description">Description</string>
+    <string name="Price_type">Per Strip(12 Tabs)</string>
+    <string name="Price_calculated">Rs. 200</string>
+    <string name="Usage">Usage</string>
+    <string name="Ingredient">Ingredients</string>
+    <string name="Side_Effects">Side Effects</string>
+    <string name="title_activity_pharmacy_adding_medicine_admin">pharmacyAddingMedicineAdmin</string>
+
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -113,4 +125,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    
+
 </resources>
