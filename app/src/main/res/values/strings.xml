@@ -146,6 +146,23 @@
     <string name="statistics">Statistics</string>
     <string name="portal">Portal</string>
     <string name="doctors">Doctors</string>
+    <string name="mrs_samanthi_perera">Mrs.Samanthi Perera</string>
+    <string name="add_prescription">Add Prescription</string>
+    <string name="brief_description">Brief Description</string>
+    <string name="your_password">Your Password</string>
+    <string name="your_email">Your Email</string>
+    <string name="edit">Edit</string>
+    <string name="nhsl">National Hospitals - Colombo</string>
+
+    <string name="pediatrition">Pediatrition</string>
+    <string name="base_hospital_hrana">Base Hospital Hrana</string>
+    <string name="dr_nihal_perera">Dr.Nihal Perera</string>
+
+    <string name="charith_pathurana">Dr.Charitha Pathirana</string>
+    <string name="to_7_00_pm">To 7.00 PM</string>
+    <string name="mr_shena_perera">Mr.Shena Perera</string>
+    <string name="eye_checkup">EYE CHECKUP</string>
+    <string name="view">View</string>
 
 
 </resources>
